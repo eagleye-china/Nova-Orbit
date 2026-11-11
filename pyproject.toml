@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nova-orbit"
+version = "0.1.0"
+description = "A stunning, GPU-accelerated AI chat UI framework for PySide6/QML."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "eagleye-china", email = "zdt168@sina.cn" }]
+dependencies = [
+    "PySide6>=6.6",
+    "openai>=1.0",
+    "markdown>=3.5"
+]
+
+[project.urls]
+Homepage = "https://github.com/eagleye-china/nova-orbit"
+Repository = "https://github.com/eagleye-china/nova-orbit"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# ✅ 关键：将 QML 文件打包进库中
+[tool.setuptools.package-data]
+nova_orbit = ["qml/*.qml"]

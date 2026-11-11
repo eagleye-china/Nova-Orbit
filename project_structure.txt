@@ -1,0 +1,16 @@
+nova-orbit/
+├── src_nova_orbit/
+│   ├── __init__.py
+│   ├── bridge.py
+│   ├── widget.py
+│   └── qml/
+│       ├── NovaChatWindow.qml
+│       ├── NovaMessageBubble.qml
+│       ├── NovaInputBar.qml
+│       └── NovaAttachmentStrip.qml
+├── examples/
+│   └── basic_chat.py
+├── README.md
+├── README_zh.md
+├── LICENSE/
+└── pyproject.toml
