@@ -28,7 +28,7 @@ def main():
     print("\n✅ 本地 Git 初始化完成！")
     print("====================================")
     print("🔗 接下来请执行以下两步关联远程仓库并推送：")
-    print("   1. git remote add origin https://github.com/eagleye-china/nova-orbit.git")
+    print("   1. git remote add origin git@github.com/eagleye-china/nova-orbit.git")
     print("   2. git push -u origin main")
     print("====================================")
     print("🏷️ 发布正式版时，只需打标签即可自动触发发布流水线：")
